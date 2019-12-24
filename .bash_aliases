@@ -16,14 +16,18 @@ alias la='ls -A'                              # all but . and ..
 alias l='ls -CF'                              #
 
 alias glogs='git log --oneline --decorate'
-alias glog='git log --oneline --decorate --graph --all'
-alias glogl='git log --decorate --graph --all'
-alias gb='git branch'
-alias gbl='git branch -a -vv'
+alias glog='git log --oneline --decorate --graph'
+alias glogl='git log --decorate --graph'
+alias gloga='git log --oneline --decorate --graph --all'
+alias glogla='git log --decorate --graph --all'
 alias gco='git checkout'
 alias gci='git commit'
 alias gdi='git diff'
 alias gst='git status'
 alias ga='git add'
 alias gaa='git add -A'
-
+alias gb='git branch'
+alias gba='git branch -a'
+alias gbr='git branch -r'
+alias gbc='git rev-parse --abbrev-ref HEAD'
+alias gbl='git branch -a -vv'
