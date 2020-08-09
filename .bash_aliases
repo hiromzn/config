@@ -15,6 +15,11 @@ alias ll='ls -alF'                              # long list
 alias la='ls -A'                              # all but . and ..
 alias l='ls -CF'                              #
 
+# data analysis
+alias su='sort |uniq'
+alias suc='sort |uniq -c'
+alias sum="awk '{a+=\$1; b+=\$2; c+=\$3; d+=\$4; e+=\$5; f+=\$6; g+=\$7; h+=\$8; i+=\$9;} END { print a,b,c,d,e,f,g,h,i }'"
+
 alias glogs='git log --oneline --decorate'
 alias glog='git log --oneline --decorate --graph'
 alias glogl='git log --decorate --graph'
