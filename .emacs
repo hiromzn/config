@@ -1,3 +1,9 @@
+ 
+;; (prefer-coding-system 'utf-8)
+;; (set-default 'buffer-file-coding-system 'utf-8)
+;; (set-file-name-coding-system 'cp932)
+;; (set-keyboard-coding-system 'cp932)
+;; (set-terminal-coding-system 'utf-8)
 
 (define-key global-map (kbd "C-h") 'delete-backward-char)
 (define-key global-map (kbd "C-r") 'scroll-down)
